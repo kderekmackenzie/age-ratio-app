@@ -53,7 +53,6 @@ def estimate_biological_age(
         bio_age += 3
 
     # Health conditions penalty
-    # User can expand this list or weight differently later.
     condition_penalty = {
         "hypertension": 3,
         "diabetes": 4,
@@ -73,7 +72,7 @@ def estimate_biological_age(
 
 
 # ------------------------------------------------------------
-# Financial Age Estimation (Updated Logic)
+# Financial Age Estimation 
 # ------------------------------------------------------------
 
 def estimate_financial_age(net_worth: float, housing_status: str) -> float:
