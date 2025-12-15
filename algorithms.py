@@ -111,9 +111,9 @@ def estimate_financial_age(net_worth: float, housing_status: str) -> float:
     # Housing adjustment (small, realistic)
     hs = housing_status.lower().strip()
     if hs == "own":
-        financial_age -= 3       # homeownership boosts financial maturity
+        financial_age += 3       # homeownership boosts financial maturity
     else:
-        financial_age += 3       # renting delays typical wealth accumulation
+        financial_age -= 3       # renting delays typical wealth accumulation
 
     # Reasonable output bounds
     return float(np.clip(financial_age, 18, 95))
