@@ -108,7 +108,7 @@ activity_level = st.selectbox(
 
 conditions = st.multiselect(
     "Health Conditions",
-    ["Hypertension", "Diabetes", "Smoker", "Obesity", "Heart-Disease"],
+    ["Hypertension", "Diabetes", "Smoker", "Obesity", "Heart-Disease", "Anxiety-Depression"],
 )
 
 st.subheader("Financial Inputs")
