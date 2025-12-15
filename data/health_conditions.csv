@@ -1,10 +1,11 @@
 condition,age_penalty_years
 none,0
 hypertension,2
-type 2 diabetes,3
-smoker,4
+diabetes,3
+smoker,5
 hyperlipidemia,1.5
+heart-disease,6
 sleep apnea,1.5
-depression/anxiety,1
+anxiety-depression,2
 cardiovascular disease,5
 chronic kidney disease,4
