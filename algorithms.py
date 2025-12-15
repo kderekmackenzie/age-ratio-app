@@ -60,6 +60,7 @@ def estimate_biological_age(
         "smoker": 5,
         "obesity": 4,
         "heart-disease": 6,
+         "anxiety-depression": 2,
     }
 
     for c in conditions:
