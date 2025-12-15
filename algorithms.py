@@ -81,8 +81,8 @@ def estimate_financial_age(net_worth: float, housing_status: str) -> float:
     Estimate financial age by interpolating against a realistic median net-worth curve.
     Higher financial age = higher wealth maturity = good.
 
-    Renting increases financial age slightly (penalty),
-    home ownership decreases it slightly (boost).
+    Renting decreases financial age slightly (penalty),
+    home ownership increase it slightly (boost).
     """
 
     # Median net worth by age (US + Canada blended reference curve)
